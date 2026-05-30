@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home Natural Fitness | Coach Koti</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;scroll-behavior:smooth}
+body{background:#07110c;color:#fff;line-height:1.7}
+section{padding:90px 8%}
+header{position:fixed;top:0;width:100%;z-index:999;background:rgba(0,0,0,.7);backdrop-filter:blur(10px);padding:18px 8%;border-bottom:1px solid rgba(255,255,255,.08)}
+nav{display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:30px;font-weight:800;color:#22c55e}
+nav a{color:#fff;text-decoration:none;margin-left:22px;font-weight:500}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.8)),url('WhatsApp Image 2026-05-23 at 20.54.49.jpeg') center/cover}
+.hero-content{max-width:950px}
+.hero h1{font-size:72px;line-height:1.1;margin-bottom:20px}
+.hero h1 span{color:#22c55e}
+.hero p{font-size:22px;color:#d1d5db;margin-bottom:25px}
+.btns{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-top:30px}
+.btn{padding:16px 28px;border-radius:12px;text-decoration:none;font-weight:700;display:inline-block}
+.primary{background:#22c55e;color:#fff}
+.secondary{border:2px solid #22c55e;color:#22c55e}
+.grid{display:grid;gap:25px}
+.features{grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-top:40px}
+.card{background:#101915;padding:28px;border-radius:22px;border:1px solid rgba(255,255,255,.08)}
+.card h3{color:#22c55e;margin:15px 0}
+.title{text-align:center;font-size:48px;margin-bottom:15px}
+.sub{text-align:center;color:#cbd5e1;max-width:900px;margin:0 auto 50px}
+.gallery{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.gallery img,.gallery video{width:100%;border-radius:24px;height:520px;object-fit:cover;border:2px solid rgba(255,255,255,.08)}
+.stats{grid-template-columns:repeat(auto-fit,minmax(200px,1fr));text-align:center}
+.stat{background:#101915;padding:35px;border-radius:20px}
+.stat h2{font-size:42px;color:#22c55e}
+.plans{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.plan{background:#101915;padding:35px;border-radius:24px;border:1px solid rgba(255,255,255,.08);position:relative}
+.best{position:absolute;top:-12px;right:20px;background:#22c55e;padding:6px 15px;border-radius:30px;font-size:12px;font-weight:700}
+.plan h2{font-size:40px;color:#22c55e}
+.plan ul{margin:25px 0;padding-left:20px}
+.plan li{margin-bottom:10px}
+.review{background:#101915;padding:30px;border-radius:22px}
+footer{padding:60px 8%;background:#020503;text-align:center;border-top:1px solid rgba(255,255,255,.08)}
+.lang{position:fixed;right:20px;top:90px;z-index:999;display:flex;gap:10px}
+.lang button{padding:10px 16px;border:none;border-radius:10px;font-weight:700;cursor:pointer}
+@media(max-width:768px){
+.hero h1{font-size:42px}
+.hero p{font-size:17px}
+nav .menu{display:none}
+}
+</style>
+</head>
+<body>
+
+<div class="lang">
+<button onclick="setEnglish()">English</button>
+<button onclick="setTelugu()">తెలుగు</button>
+</div>
+
+<header>
+<nav>
+<div class="logo">HOME NATURAL FITNESS</div>
+<div class="menu">
+<a href="#about">About</a>
+<a href="#plans">Plans</a>
+<a href="#results">Results</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+</header>
+
+<section class="hero">
+<div class="hero-content">
+<h1 id="mainTitle">No Gym. No Supplements. <span>Real Results.</span></h1>
+<p id="mainText">"జిమ్ మీద ఆధారపడకుండా… అనవసరమైన సప్లిమెంట్స్ లేకుండా… నిజమైన క్రమశిక్షణతో ఫిట్‌నెస్ మార్పు."</p>
+
+<div class="btns">
+<a href="https://wa.me/918074032389" target="_blank" class="btn primary">🔥 BOOK MY PAID TRIAL SESSION</a>
+<a href="https://wa.me/918074032389" target="_blank" class="btn secondary">💬 WHATSAPP COACH KOTI</a>
+</div>
+
+<div class="grid features">
+<div class="card"><h3>WEIGHT LOSS</h3><p>Natural fat reduction through discipline and consistency.</p></div>
+<div class="card"><h3>MUSCLE BUILDING</h3><p>Build strength naturally without shortcuts.</p></div>
+<div class="card"><h3>HOME TRAINING</h3><p>Professional personal training directly at your home.</p></div>
+<div class="card"><h3>LIFESTYLE DISCIPLINE</h3><p>Transform your body and mindset together.</p></div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="grid stats">
+<div class="stat"><h2>15+</h2><p>YEARS EXPERIENCE</p></div>
+<div class="stat"><h2>500+</h2><p>CLIENTS TRANSFORMED</p></div>
+<div class="stat"><h2>0%</h2><p>SUPPLEMENTS USED</p></div>
+<div class="stat"><h2>8+</h2><p>COMPETITION MEDALS</p></div>
+</div>
+</section>
+
+<section id="about">
+<h2 class="title">ABOUT COACH KOTI</h2>
+<p class="sub">15 Years of Ground Reality Is My Real Certification</p>
+
+<div class="grid gallery">
+<img src="WhatsApp Image 2026-05-23 at 20.54.49.jpeg">
+<img src="WhatsApp Image 2026-05-23 at 20.55.39.jpeg">
+<img src="WhatsApp Image 2026-05-23 at 20.55.40.jpeg">
+</div>
+
+<div class="card" style="margin-top:40px">
+<h3 style="font-size:34px">Kancheti Koteswara Rao Naidu</h3>
+<p style="color:#22c55e;font-weight:700">🌿 NATURAL FITNESS COACH · SINCE 2012</p>
+<br>
+<p>My journey began not in a certification classroom, but on the ground — 15 years of real-world fitness experience working with real people, solving real problems.</p>
+<br>
+<p>I specialize in helping people transform through honest, natural training — no protein powders, no fat burners, no chemical shortcuts.</p>
+<br>
+<p><b>"The gym is just a tool. Real strength comes from how you eat, sleep, think, and live — naturally, every single day."</b></p>
+<br>
+<p>"కాగితం మీద ఉన్న సర్టిఫికెట్ల కంటే… గ్రౌండ్ మీద సంపాదించిన అనుభవాన్ని నేను ఎక్కువగా నమ్ముతాను."</p>
+</div>
+</section>
+
+<section>
+<h2 class="title">WATCH COACH KOTI</h2>
+<p class="sub">Training Videos — Real Sessions, Real Strength</p>
+<div class="grid gallery">
+<video controls autoplay muted loop>
+<source src="WhatsApp Video 2026-05-23 at 20.52.35.mp4" type="video/mp4">
+</video>
+</div>
+</section>
+
+<section id="plans">
+<h2 class="title">Choose Your Transformation Plan</h2>
+<p class="sub">Three plans. All 100% natural. Trial session fee fully adjustable into your first monthly payment.</p>
+
+<div class="grid plans">
+<div class="plan">
+<h3>🥇 Premium 1-on-1</h3>
+<p>Personal home training — fully dedicated to you</p>
+<h2>₹9,999</h2>
+<p>TRIAL — ₹799 adjustable</p>
+<ul>
+<li>16 Live Home Sessions</li>
+<li>Natural Diet Guidance</li>
+<li>WhatsApp Support</li>
+<li>Daily Accountability</li>
+<li>Live Form Correction</li>
+</ul>
+<a href="https://wa.me/918074032389" class="btn primary">BOOK TRIAL</a>
+</div>
+
+<div class="plan">
+<div class="best">BEST VALUE</div>
+<h3>👥 Couple / Buddy Plan</h3>
+<p>Train together — husband & wife or friends</p>
+<h2>₹14,999</h2>
+<p>TRIAL — ₹1,199 adjustable</p>
+<ul>
+<li>16 Shared Sessions</li>
+<li>Partner Motivation</li>
+<li>WhatsApp Group Support</li>
+<li>Shared Progress Tracking</li>
+<li>Saves ₹5,000</li>
+</ul>
+<a href="https://wa.me/918074032389" class="btn primary">BOOK TRIAL</a>
+</div>
+
+<div class="plan">
+<h3>🏠 Family Health Plan</h3>
+<p>Keep the entire household healthy together</p>
+<h2>₹19,999</h2>
+<p>TRIAL — ₹1,499 adjustable</p>
+<ul>
+<li>16 Family Sessions</li>
+<li>Nutrition Guidance</li>
+<li>Flexible Scheduling</li>
+<li>Family Wellness Support</li>
+<li>Health & Mobility</li>
+</ul>
+<a href="https://wa.me/918074032389" class="btn primary">BOOK TRIAL</a>
+</div>
+</div>
+</section>
+
+<section id="results">
+<h2 class="title">REAL RESULTS</h2>
+<p class="sub">What Clients Say About Coach Koti</p>
+
+<div class="grid plans">
+<div class="review">
+<h3>⭐⭐⭐⭐⭐</h3>
+<p>"I lost 14 kg in 4 months — completely naturally. No supplements, no gym membership."</p>
+<br>
+<b>Ravi Kumar · Kondapur</b>
+</div>
+
+<div class="review">
+<h3>⭐⭐⭐⭐⭐</h3>
+<p>"Koti garu trained me at 6 AM at home. My stamina and confidence completely changed."</p>
+<br>
+<b>Priya Reddy · Madhapur</b>
+</div>
+
+<div class="review">
+<h3>⭐⭐⭐⭐⭐</h3>
+<p>"The daily WhatsApp check-ins made all the difference. You don't get this dedication anywhere else."</p>
+<br>
+<b>Anitha Sharma · Jubilee Hills</b>
+</div>
+</div>
+</section>
+
+<section>
+<h2 class="title">SERVICE AREA</h2>
+<p class="sub">Coach Koti Comes Directly To You</p>
+<div class="grid features">
+<div class="card">📍 Gajularamaram</div>
+<div class="card">📍 Miyapur</div>
+<div class="card">📍 Kukatpally</div>
+<div class="card">📍 Madhapur</div>
+<div class="card">📍 Kondapur</div>
+<div class="card">📍 Jubilee Hills</div>
+<div class="card">📍 Banjara Hills</div>
+<div class="card">📍 Pragathi Nagar</div>
+</div>
+</section>
+
+<section id="contact">
+<h2 class="title">Apply Now — Are You Ready To Transform?</h2>
+<p class="sub">Real Effort Creates Real Transformation.</p>
+
+<div class="card">
+<form style="display:grid;gap:18px">
+<input type="text" placeholder="FULL NAME" style="padding:16px;border-radius:12px;border:none;background:#17211d;color:#fff">
+<input type="number" placeholder="AGE" style="padding:16px;border-radius:12px;border:none;background:#17211d;color:#fff">
+<input type="text" placeholder="LOCATION IN HYDERABAD" style="padding:16px;border-radius:12px;border:none;background:#17211d;color:#fff">
+<textarea placeholder="FITNESS GOALS" rows="6" style="padding:16px;border-radius:12px;border:none;background:#17211d;color:#fff"></textarea>
+<button type="submit" style="padding:18px;border:none;border-radius:12px;background:#22c55e;color:#fff;font-size:18px;font-weight:700">✅ APPLY NOW — SUBMIT</button>
+</form>
+</div>
+</section>
+
+<footer>
+<h2 style="color:#22c55e">HOME NATURAL FITNESS</h2>
+<p>15 years of natural fitness excellence by Coach Koti.</p>
+<br>
+<p>💬 WhatsApp: 8074032389</p>
+<p>📬 homefitnessnatural38@gmail.com</p>
+<p>📍 Hyderabad, Telangana</p>
+<br>
+<p>© 2026 Home Natural Fitness. All rights reserved.</p>
+</footer>
+
+<script>
+function setTelugu(){
+document.getElementById('mainTitle').innerHTML='జిమ్ కాదు. సప్లిమెంట్స్ కాదు. <span style="color:#22c55e">నిజమైన ఫలితాలు.</span>';
+document.getElementById('mainText').innerHTML='జిమ్ మీద ఆధారపడకుండా… అనవసరమైన సప్లిమెంట్స్ లేకుండా… నిజమైన క్రమశిక్షణతో ఫిట్‌నెస్ మార్పు.';
+}
+function setEnglish(){
+document.getElementById('mainTitle').innerHTML='No Gym. No Supplements. <span style="color:#22c55e">Real Results.</span>';
+document.getElementById('mainText').innerHTML='Natural transformation through discipline, home training, and consistency.';
+}
+</script>
+
+</body>
+</html>
